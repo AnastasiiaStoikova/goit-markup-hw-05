@@ -137,7 +137,7 @@ img {
 .header-link {
     font-weight: 500;
     color: var(--title-text-color);
-
+    transition: color var(--o-transition);
 }
 
 
@@ -555,8 +555,7 @@ img {
 
 .link-wrapper {
     display: block;
-    transition: transform var(--o-transition),
-        box-shadow var(--o-transition);
+    transition: box-shadow var(--o-transition);
 
 }
 
