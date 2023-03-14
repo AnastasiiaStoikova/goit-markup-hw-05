@@ -95,7 +95,9 @@ img {
 }
 
 
-
+.header-link {
+    transition: color var(--second-accent-color);
+}
 .second-logo {
     color: var(--title-text-color);
 }
@@ -596,9 +598,9 @@ img {
 .modal {
     position: absolute;
 
-    left: 516px;
-    top: 88px;
-
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 408px;
     height: 576px;
 
